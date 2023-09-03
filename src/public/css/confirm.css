@@ -1,0 +1,84 @@
+.contact-form__content {
+    margin: 30px auto;
+    width: 70%;
+}
+
+.contact-form__heading {
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__group-title {
+    padding-top: 10px;
+    width: 30%;
+}
+
+.form__label--item {
+    font-weight: bold;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__group-content {
+    width: 70%;
+}
+
+.form__input--text {
+    padding: 10px 5px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+.form_input--example {
+    padding-left: 10px;
+    color: gainsboro;
+}
+
+.form__name-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__name-content--item {
+    width: 45%;
+}
+
+.form__radio {
+    /* padding: 10px; */
+    transform: scale(2.0);
+}
+
+/* .form__radio-labels {
+    display: inline-block;
+    margin-right: 20px;
+} */
+
+.form__postcode-content {
+    display: flex;
+}
+
+.form__postcode-content--mark {
+    padding-top: 10px;
+    width: 5%;
+    font-weight: bold;
+}
+
+.form__postcode-content--item {
+    width: 95%;
+}
+
+.form__textarea {
+    padding: 10px 5px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    resize: none;
+}
